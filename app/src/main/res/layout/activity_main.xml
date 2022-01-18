@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contoh"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/tk1"
+        android:backgroundTint="#FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="sesuai isi text"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/tk2"
+        android:backgroundTint="#EEFF00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/tk1"
+        android:layout_centerHorizontal="true"
+        android:text="sesuai lebar "
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/tk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FF1A"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tk2"
+        android:text="sesuai warna"
+        android:elevation="10dp"/>
+</RelativeLayout>
